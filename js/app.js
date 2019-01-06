@@ -115,6 +115,8 @@ function printModal(i) {
                         <hr>
                             <p class="modal-text cap">Valve Serial Number:</p>
                             <p class="modal-text">${schiebels[i].serialValve}</p>
+                            <p class="modal-text cap">Valve Size:</p>
+                            <p class="modal-text">${schiebels[i].sizeValve}</p>
                             <p class="modal-text">Order Number:</p>
                             <p class="modal-text">${schiebels[i].orderNumber}</p>
                     </div>
@@ -137,16 +139,16 @@ function printModal(i) {
 function prevModal(i) {
     //console.log('function prevModal works :)')
     if (i === 0) {
-        console.log(i, empleados.length)
-        printModal(empleados.length - 1)
+        console.log(i, schiebels.length)
+        printModal(schiebels.length - 1)
     } else {
         printModal(i - 1)
     }
 }
 function nextModal(i) {
     //console.log('function nextModal works :)')    
-    if (i === empleados.length - 1) {
-        console.log(i, empleados.length)
+    if (i === schiebels.length - 1) {
+        console.log(i, schiebels.length)
         printModal(0)
     } else {
         printModal(i + 1);
