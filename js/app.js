@@ -160,3 +160,5 @@ function closeModal() {
     mockup();
     modalC.style.display = 'none'
 }
+
+console.log('testing')
