@@ -88,7 +88,9 @@ submit.addEventListener('click', () => {
             let serialActuator = card1[i].querySelector('.card-name').textContent;
             let serialValve = card1[i].querySelector('.serial-valve').textContent;
             let orderNumber = card1[i].querySelector('.order-number').textContent;
-            if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0) {
+            //let valveSize = card1[i].querySelector('.size-valve').textContent;
+
+            if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 ) { // || valveSize.indexOf(actuator) === 0) {
                 console.log(card1[i])
                 card1[i].style.display = "";
             } else {
@@ -116,7 +118,7 @@ function printModal(i) {
                             <p class="modal-text cap">Valve Serial Number:</p>
                             <p class="modal-text">${schiebels[i].serialValve}</p>
                             <p class="modal-text cap">Valve Size:</p>
-                            <p class="modal-text">${schiebels[i].sizeValve}</p>
+                            <p class="modal-text size-valve">${schiebels[i].sizeValve}</p>
                             <p class="modal-text">Order Number:</p>
                             <p class="modal-text">${schiebels[i].orderNumber}</p>
                     </div>
