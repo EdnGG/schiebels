@@ -47,7 +47,7 @@ function mockup() {
         html +=
             `   <div class="card" onClick="printModal('${i}')">
                         <div class="card-img-container">
-                            <img class="card-img" src="../display.jpeg" alt="profile picture">
+                            <img class="card-img" src="../mockups/display.jpeg" alt="profile picture">
                         </div>
                         <div class="card-info-container">
                             <h3 id="name" class="card-name cap">${schiebels[i].serialActuator} </h3>
@@ -111,7 +111,7 @@ function printModal(i) {
                 <div class="modal">
                     <button type="button" id="modal-close-btn" class="modal-close-btn" onClick="closeModal()"><strong>X</strong></button>
                     <div class="modal-info-container">
-                        <img class="modal-img" src="../display.jpeg" alt="profile picture">
+                        <img class="modal-img" src="../mockups/display.jpeg" alt="profile picture">
                         <h3 id="name" class="modal-name cap">Actuator Serial Number:</h3>
                         <p class="modal-text">${schiebels[i].serialActuator}</p>
                         <hr>
