@@ -210,7 +210,100 @@ header h1 {
     transition: .4s ease-out;
     outline: none;
   }
+
+  .button {
+        font-size: 1.2em;
+        color: rgba(0, 0, 0, 0.8);
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 0.25em;
+        border: 2px solid rgba(50, 50, 50, 0.3);
+        cursor: pointer;
+
+        /*color: rgba(50, 50, 50, 0.7);
+        margin: 10px;*/
+  }
+
+  .pagination{ 
+        margin: 40px 0 0 0;
+         text-align: center;
+    }
+
+   .pagination li{
+    display: inline;
+  }
+
+    .pagination li a{
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      padding: 3px 8px;
+      text-decoration: none;
+      color: #4ba6c3;
+    }
+
+    .pagination li a.active,
+    .pagination li a:hover{
+      /*background-color: #4ba6c3; */
+      color: #fff;
+    }
   
+    .menu ul {
+    height: 40px;
+    }
+    .menu ul li {
+    display: inline-block;
+    }
+    .menu {
+    /*background: #219cca;*/
+     /*border-left: 10px solid #fff;*/
+     box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    cursor: pointer;
+    width: 100%;
+    max-width: 992px;
+    margin: 10px 10px 20px;
+    padding: 10px;
+    background: rgba(245, 245, 245, 0.9);
+    border-radius: 0.25em;
+    border: 2px solid rgba(50, 50, 50, 0.3);
+    transition: .3s ease-out;
+    overflow: hidden;
+    margin: auto;
+
+    }
+.menu ul {
+  margin: 0px;
+}
+.menu ul li {
+  /*display: block;*/
+  line-height: 40px;
+  transition: 0.6s;
+}
+.menu ul li:hover {
+/* background: rgba(245, 245, 245, 0.9); */
+}
+.menu ul li a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  padding: 1em;
+  transition: 0.6s;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.menu ul li a:hover {
+  font-size: 1.4em;
+}
+.ancor{
+    text-align: left;
+}
 
 /* ===================================== 
    Media Queries
@@ -232,6 +325,11 @@ header h1 {
 
     .header-text-container {
         text-align: left;
+        /* font-size: 1.25em; */
+        font-size: 1.75em;
+       
+        /* color: rgba(50, 50, 50, 0.9); */
+        color: rgba(21, 21, 22, 0.829);
     }
 
     .search-container {
