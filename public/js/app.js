@@ -1,7 +1,7 @@
 //Creando un array donde se guardara la respuesta de Fetch, haciendo estas variables globales
 let schiebels = []
 let valve = []
-let results = []
+let results = []  // arrreglo de paginacion
 let counterContainer = document.querySelector('#div-counter')
 let sizePaginaton = schiebels.length
 
@@ -32,94 +32,182 @@ fetch('./actuators.json')
         pagination();
 
     }).catch(err => {
-        console.log(`Something went wrong: ${err}`)
+        console.log(`Something went wrong: ${err.message}`)
     })
 
-// const pagination = ()=>  {
-//     const numberOfPages = Math.ceil(schiebels.length / 10);
-//     $(".card").slice(10).hide();
-//     const $pageUlist = $("<ul></ul>");
-//     $(".pagination").append($pageUlist);
+const pagination = ()=>  {
 
-//     //Loop through page numbers with page links
-//     for (let i = 0; i < numberOfPages; i++) {
+let ancorPage1 = document.querySelector('#one')
+let ancorPage2 = document.querySelector('#two')
+let ancorPage3 = document.querySelector('#three')
+let prev = document.querySelector('.previous')
+let next = document.querySelector('.next')
+let element = document.querySelectorAll('.card')
+let pages = [0,10]
 
-//         let ancorTags = `<a href='#'> ${i+1} </a>`;
-//         let $pageListItem = $(`<li>${ancorTags}</li>`);
-//         $(".pagination ul").append($pageListItem);
-//     }
-//         $(".pagination a:contains(1)").addClass("active");
+
+let elements = []
+elements.push(element)
+
+console.log(elements) //array donde guardo cada elemeto   
+console.log(element) // me muestra cada elemento
+
+$(element).slice(10).hide()
+
+    prev.addEventListener('click', (e) => {
+        //tengo que visualizar los siguientes 10 elementos
+        //let element = document.querySelectorAll('.card')
+        console.log('next')
+        $(element).slice(10).hide()
+        e.preventDefault()
+
+    })
+
+    ancorPage1.addEventListener('click', (e) => {
+        //tengo que visualizar los siguientes 10 elementos
+        //let element = document.querySelectorAll('.card')
+        console.log('page 1')
+        $(element).hide()
+        //$(element).slice(...pages).show()
+
+        $(element).slice(11, 21).show()
+        e.preventDefault()
+
+    })
+
+    ancorPage2.addEventListener('click', (e) => {
+        //tengo que visualizar los siguientes 10 elementos
+        //let element = document.querySelectorAll('.card')
+        console.log('page 2')
+        $(element).hide()
+        $(element).slice(22, 32).show()
+        e.preventDefault()
+
+    })
+
+    ancorPage3.addEventListener('click', (e) => {
+        //tengo que visualizar los siguientes 10 elementos
+        //let element = document.querySelectorAll('.card')
+        console.log('page 3')
+        $(element).hide()
+        $(element).slice(32, 42).show()
+        e.preventDefault()
+
+    })
+
+    next.addEventListener('click', (e)=>{
+        //tengo que visualizar los siguientes 10 elementos
+        //let element = document.querySelectorAll('.card')
+    //$(next).addClass('.active')
+        
+
+        console.log('next event')
+        $(element).hide()
+        pages = pages * 11
+        console.log(pages)
+        $(element).slice(pages).show()
+        e.preventDefault()
+
+    })
+
+
+ //$('.card').slice(10).hide()
+
+
+// $('.gallery').pagination({
+    //     dataSource: [1, 2, 3, 4, 5, 6, 7,],
+    //     pageSize: 10,
+    //     showPrevious: false,
+    //     showNext: false,
+    //     callback: function (data, pagination) {
+    //         // template method of yourself
+    //         var html = template(data);
+    //         dataContainer.html(html);
+    //     }
+    // })
+
+
+// let monkeyList = new List('gallery', {
+    //     valueNames: ['name'],
+    //     page: 3,
+    //     pagination: true
+    // });
+
+
+// $('.gallery').infiniteScroll({
+    //     // options
+    //     path: '.pagination__next',
+    //     append: '.post',
+    //     history: false,
+    // });
+
+//$('.gallery').jpaginate(); 
+
+// console.log(` pagination function executed`, element.length)
+
+
+
+
+
+
+/**************************** */
+
+    //const numberOfPages = Math.ceil(schiebels.length / 10);
+    // $(".card").slice(10).hide();
+    // const $pageUlist = $("<ul></ul>");
+    // $(".pagination").append($pageUlist);
+
+    // //Loop through page numbers with page links
+    // for (let i = 0; i < 6; i++) {
+
+    //     let ancorTags = `<a href='#'> ${i+1} </a>`;
+    //     let $pageListItem = `<li>${ancorTags}</li>`;
+    //     $(".pagination ul").append($pageListItem);
+    // }
+    //     $(".pagination a:contains(1)").addClass("active");
     
 
-//     //Click event bound to pagination links
-//     $(".pagination a").click(function () {
-//         $(".card").hide();
-//         //Use page number text as calculation starting point
-//         let currentPage = $(this).text();
-//         console.log(currentPage)
-//         //Remove active class from other clicked links
-//         $(".pagination a").removeClass("active");
-//         //Add active class to currently clicked link    
-//         $(this).addClass("active");
-//         let startIndex = (currentPage * 10) - 10;
-//         console.log(startIndex)
-//         let endIndex = currentPage * 10;
-//         console.log(endIndex)
-//         console.log(results)
+    // //Click event bound to pagination links
+    // $(".pagination a").click( function () {
+    //     $(".card").hide();
+        
+    //     //Use page number text as calculation starting point
+    //     let currentPage = $(this).text();
+    //     console.log(`current page ${currentPage}`)
+        
+    //     //Remove active class from other clicked links
+    //     $(".pagination a").removeClass("active");
+        
+    //     //Add active class to currently clicked link    
+    //     $(this).addClass("active");
+    
+    //     let startIndex = currentPage * 10 - 10; //2*10 = 20
+    //     console.log(`Punto inicial del numero de elemtos a tomar: ${startIndex}`)
+   
+    //     let endIndex = currentPage * 10;
+    //     console.log(`Punto final del numero de elemtos a tomar: ${endIndex}`)
+    //     console.log(`Este arreglo siempre estara vacio, la condicion nunca se cumple: ${results[0]}`)
 
-//         //If results array isn't empty then show ten per page
-//         if (results.length > 1) {
-//             $(".card").hide();
-//             $(results).slice(startIndex, endIndex).show();
-//         } else {
-//             //Show 10 students per page using start and end index
-//             $(".card").slice(startIndex, endIndex).show();
-//         }
-//     });
-// }
+    //     //If results array isn't empty then show ten per page
+    //     // if (results.length > 1) {
+    //     //     //$(".card").hide();
+    //     //     //$(results).slice(startIndex, endIndex).show();
+    //     //     console.log($(results).slice(startIndex, endIndex).show() )
+    //     // } else {
+    //     //     //Show 10 students per page using start and end index
+    //     //     $(".card").slice(startIndex, endIndex).show();
+    //     // }
 
-const pagination = () => {
-    const numberOfPages = Math.ceil(schiebels.length / 10);
-    $(".card").slice(10).hide();
-    const $pageUlist = $("<ul></ul>");
-    $(".pagination").append($pageUlist);
+    //     $(".card").slice(startIndex, endIndex).show();
 
-    //Loop through page numbers with page links
-    for (let i = 0; i < numberOfPages; i++) {
+    /**************************** */
 
-        let ancorTags = `<a href='#'> ${i + 1} </a>`;
-        let $pageListItem = $(`<li>${ancorTags}</li>`);
-        $(".pagination ul").append($pageListItem);
-    }
-    $(".pagination a:contains(1)").addClass("active");
+    //});
 
 
-    //Click event bound to pagination links
-    $(".pagination a").click(function () {
-        $(".card").hide();
-        //Use page number text as calculation starting point
-        let currentPage = $(this).text();
-        console.log(currentPage)
-        //Remove active class from other clicked links
-        $(".pagination a").removeClass("active");
-        //Add active class to currently clicked link    
-        $(this).addClass("active");
-        let startIndex = (currentPage * 10) - 10;
-        console.log(startIndex)
-        let endIndex = currentPage * 10;
-        console.log(endIndex)
-        console.log(results)
 
-        //If results array isn't empty then show ten per page
-        if (results.length > 1) {
-            $(".card").hide();
-            $(results).slice(startIndex, endIndex).show();
-        } else {
-            //Show 10 students per page using start and end index
-            $(".card").slice(startIndex, endIndex).show();
-        }
-    });
 }
+
 
 document.getElementById("details").addEventListener('click', ()=> { 
 
@@ -201,7 +289,7 @@ submit.addEventListener('click', (e) => {
         $(".card").slice(10).hide();
         console.log(card)
         //card.slice(10)
-        console.log(card)
+        
     } 
 })
 
