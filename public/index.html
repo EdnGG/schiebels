@@ -5,8 +5,21 @@
     <title>Schiebels</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+<!--  -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css"> -->
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+<!--  -->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -29,7 +42,7 @@
             <ul>
     
                 <li><a id="actuators" class="ancor">VSI Schiebels</a></li>
-                <li><a id="inspection" class="ancor">Inspection</a></li>
+                
                 
             </ul>
         </nav>
@@ -49,20 +62,54 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
             <li>
-                <a href="#" class="previous">Previous</a>
+                <button type="button" class="previous search-input button">Previous</button>
             </li>
 
-            <li> <a href="#" id="one">1</a></li>
-            <li> <a href="#" id="two">2</a></li>
-            <li> <a href="#" id="three">3</a></li>
+           
             
             <li>
-                <a class="next pagination__next" href="">Next</a>
+                <button type="button" class="next search-input button" href="">Next</button>
             </li>
         </ul>
     </nav>
 
+<!-- footer -->
+
+<footer class="footer" id="footer">
+
+    <div class="contenedor-footer">
+
+        <div>
+        </div>
+
+        <div class="redesSociales">
+            <!-- Esto es el footer -->
+            <p class="realizadopor"><strong>By EdnGG.</strong></p>
+           
+            <div class="logos-redes">
+                
+                
+                <a target="_blank" href="https://www.facebook.com/liledn.mexikn">
+                
+                <i class=" fab fa-facebook-f" ></i>
+                
+                </a>
+
+               
+
+                
+                <a class="logo-github" target="_blank" href="https://github.com/EdnGG">
+                
+                <i class="fab fa-github-alt"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>    
+<!-- end footer -->
+
     <!-- Add additional services that you want to use -->
+
     <!-- <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script> -->
     <!-- <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase-firestore.js"></script> -->
    <!-- <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-storage.js"></script> -->
@@ -73,22 +120,21 @@
     <!-- Add your JS here -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
+     
+    <!-- Material design -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 
-    <!-- <script src="js/list.min.js"></script> -->
+    <!-- Material Design -->
 
 
-    <!-- <script src="http://c.fzilla.com/1291523190-jpaginate.js"> </script> -->
 
-
-<!-- infinite scroll.js -->
-    <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.js"></script>
-
-    <!--<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script> -->
+    <!-- Sweet Alert library -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script> -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <!-- My own JS -->
     <script src="./js/app.js"></script>
     <script src="./js/inspection.js"></script>
-    <script src="./js/pagination.js"></script>
-    <script src="./js/pagination.min.js"></script>
-
+    
 </body>
-
 </html>

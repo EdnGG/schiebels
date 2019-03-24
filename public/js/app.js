@@ -1,7 +1,6 @@
 //Creando un array donde se guardara la respuesta de Fetch, haciendo estas variables globales
 let schiebels = []
 let valve = []
-let results = []  // arrreglo de paginacion
 let counterContainer = document.querySelector('#div-counter')
 let sizePaginaton = schiebels.length
 
@@ -32,180 +31,51 @@ fetch('./actuators.json')
         pagination();
 
     }).catch(err => {
-        console.log(`Something went wrong: ${err.message}`)
+        swal({
+            title: `Something went wrong: ${err.message}`,
+            icon: `error`
+        })
     })
 
 const pagination = ()=>  {
+    let prev = document.querySelector('.previous')
+    let next = document.querySelector('.next')
+    let element = document.querySelectorAll('.card')
+    let defaultPagination = [0,10]
 
-let ancorPage1 = document.querySelector('#one')
-let ancorPage2 = document.querySelector('#two')
-let ancorPage3 = document.querySelector('#three')
-let prev = document.querySelector('.previous')
-let next = document.querySelector('.next')
-let element = document.querySelectorAll('.card')
-let pages = [0,10]
+    $(element).slice(10).hide()
+        function getElementNext() {
+            console.log('next button')
+            $(element).hide()
 
+                defaultPagination = defaultPagination.map(index => {
+                return index + 11  })
+                console.log(defaultPagination)
+              $(element).slice(...defaultPagination).show()
+              
+        }
 
-let elements = []
-elements.push(element)
+        function getElementPrev() {
+            $(element).hide()
+            if(defaultPagination[0] != 0){
+                defaultPagination = defaultPagination.map(index => {
+                return index - 11 })
+                $(element).slice(...defaultPagination).show()
+            } else {
+                $(element).slice(...defaultPagination).show()
 
-console.log(elements) //array donde guardo cada elemeto   
-console.log(element) // me muestra cada elemento
+            }
+}
 
-$(element).slice(10).hide()
+prev.addEventListener('click', () => {
+        getElementPrev() 
+     
+})
 
-    prev.addEventListener('click', (e) => {
-        //tengo que visualizar los siguientes 10 elementos
-        //let element = document.querySelectorAll('.card')
-        console.log('next')
-        $(element).slice(10).hide()
-        e.preventDefault()
+next.addEventListener('click', () => {
+    getElementNext()
 
-    })
-
-    ancorPage1.addEventListener('click', (e) => {
-        //tengo que visualizar los siguientes 10 elementos
-        //let element = document.querySelectorAll('.card')
-        console.log('page 1')
-        $(element).hide()
-        //$(element).slice(...pages).show()
-
-        $(element).slice(11, 21).show()
-        e.preventDefault()
-
-    })
-
-    ancorPage2.addEventListener('click', (e) => {
-        //tengo que visualizar los siguientes 10 elementos
-        //let element = document.querySelectorAll('.card')
-        console.log('page 2')
-        $(element).hide()
-        $(element).slice(22, 32).show()
-        e.preventDefault()
-
-    })
-
-    ancorPage3.addEventListener('click', (e) => {
-        //tengo que visualizar los siguientes 10 elementos
-        //let element = document.querySelectorAll('.card')
-        console.log('page 3')
-        $(element).hide()
-        $(element).slice(32, 42).show()
-        e.preventDefault()
-
-    })
-
-    next.addEventListener('click', (e)=>{
-        //tengo que visualizar los siguientes 10 elementos
-        //let element = document.querySelectorAll('.card')
-    //$(next).addClass('.active')
-        
-
-        console.log('next event')
-        $(element).hide()
-        pages = pages * 11
-        console.log(pages)
-        $(element).slice(pages).show()
-        e.preventDefault()
-
-    })
-
-
- //$('.card').slice(10).hide()
-
-
-// $('.gallery').pagination({
-    //     dataSource: [1, 2, 3, 4, 5, 6, 7,],
-    //     pageSize: 10,
-    //     showPrevious: false,
-    //     showNext: false,
-    //     callback: function (data, pagination) {
-    //         // template method of yourself
-    //         var html = template(data);
-    //         dataContainer.html(html);
-    //     }
-    // })
-
-
-// let monkeyList = new List('gallery', {
-    //     valueNames: ['name'],
-    //     page: 3,
-    //     pagination: true
-    // });
-
-
-// $('.gallery').infiniteScroll({
-    //     // options
-    //     path: '.pagination__next',
-    //     append: '.post',
-    //     history: false,
-    // });
-
-//$('.gallery').jpaginate(); 
-
-// console.log(` pagination function executed`, element.length)
-
-
-
-
-
-
-/**************************** */
-
-    //const numberOfPages = Math.ceil(schiebels.length / 10);
-    // $(".card").slice(10).hide();
-    // const $pageUlist = $("<ul></ul>");
-    // $(".pagination").append($pageUlist);
-
-    // //Loop through page numbers with page links
-    // for (let i = 0; i < 6; i++) {
-
-    //     let ancorTags = `<a href='#'> ${i+1} </a>`;
-    //     let $pageListItem = `<li>${ancorTags}</li>`;
-    //     $(".pagination ul").append($pageListItem);
-    // }
-    //     $(".pagination a:contains(1)").addClass("active");
-    
-
-    // //Click event bound to pagination links
-    // $(".pagination a").click( function () {
-    //     $(".card").hide();
-        
-    //     //Use page number text as calculation starting point
-    //     let currentPage = $(this).text();
-    //     console.log(`current page ${currentPage}`)
-        
-    //     //Remove active class from other clicked links
-    //     $(".pagination a").removeClass("active");
-        
-    //     //Add active class to currently clicked link    
-    //     $(this).addClass("active");
-    
-    //     let startIndex = currentPage * 10 - 10; //2*10 = 20
-    //     console.log(`Punto inicial del numero de elemtos a tomar: ${startIndex}`)
-   
-    //     let endIndex = currentPage * 10;
-    //     console.log(`Punto final del numero de elemtos a tomar: ${endIndex}`)
-    //     console.log(`Este arreglo siempre estara vacio, la condicion nunca se cumple: ${results[0]}`)
-
-    //     //If results array isn't empty then show ten per page
-    //     // if (results.length > 1) {
-    //     //     //$(".card").hide();
-    //     //     //$(results).slice(startIndex, endIndex).show();
-    //     //     console.log($(results).slice(startIndex, endIndex).show() )
-    //     // } else {
-    //     //     //Show 10 students per page using start and end index
-    //     //     $(".card").slice(startIndex, endIndex).show();
-    //     // }
-
-    //     $(".card").slice(startIndex, endIndex).show();
-
-    /**************************** */
-
-    //});
-
-
-
+})
 }
 
 
@@ -232,9 +102,9 @@ document.getElementById("details").addEventListener('click', ()=> {
                             <p class="modal-text size-valve">${valve3inch.length}</p>
                             <p class="modal-text">Actuators with 4 Inch valve:</p>
                             <p class="modal-text">${valve4inch.length}</p>
-                            <p class="modal-text">Total RMA's</p>
+                            <p class="modal-text">RMA's</p>
                             <p class="modal-text">${rmas.length}</p>
-                            <p class="modal-text">Total Damage Actuators</p>
+                            <p class="modal-text">Damage Actuators</p>
                             <p class="modal-text">${badMotor.length}</p>
                     </div>
                 </div>
@@ -272,7 +142,7 @@ const mockup = ()=> {
 }
 
 
-//Seleccionando y alamcenando en variables los dos text input del buscador
+//Seleccionando y almacenando en variables los dos text input del buscador
 formContainer.innerHTML = formBrowser;
 const searchInput = document.getElementById('search-input');
 const submit = document.getElementById('search-submit');
@@ -284,10 +154,13 @@ submit.addEventListener('click', (e) => {
     // Ejecutando la  funcion filter y pasando por parametro la variable 'empleado' 
     filter(actuator)
     if (searchInput.value === "") {
-        //let card = document.getElementsByClassName('card');
-
+        console.log('event listener')
+        swal({
+            title: `Please enter a valid input`,
+            icon: `error`
+        })
         $(".card").slice(10).hide();
-        console.log(card)
+        //console.log(card)
         //card.slice(10)
         
     } 
@@ -304,10 +177,16 @@ function filter(actuator) {
         let orderNumber = card1[i].querySelector('.order-number').textContent;
        
         if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 || valve.indexOf(actuator) === 0) {
-
-            //console.log(valve)
+            console.log('filter function')
+            // swal({
+            //     title: `Invalid Input`,
+            //     icon: `error`
+            // })
+           
             card1[i].style.display = "";
-        } else {
+        } else  {
+
+           
             card1[i].style.display = "none";
         }
 

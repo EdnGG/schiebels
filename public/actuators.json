@@ -1033,7 +1033,7 @@
         "notes": "Explosion Proof Limit Switch"
     },
     {
-        "serialActuator": "181130405",
+        "serialActuator": "1811303405",
         "serialValve": "18AUG-005",
         "sizeValve": "4 Inch",
         "orderNumber": "49719",
@@ -1041,7 +1041,7 @@
         "notes": "everything is ok!!"
     },
     {
-        "serialActuator": "181130409",
+        "serialActuator": "1811303409",
         "serialValve": "18AUG-009",
         "sizeValve": "4 Inch",
         "orderNumber": "49719",
@@ -1049,7 +1049,7 @@
         "notes": "everything is ok!!"
     },
     {
-        "serialActuator": "181130404",
+        "serialActuator": "1811303404",
         "serialValve": "18AUG-008",
         "sizeValve": "4 Inch",
         "orderNumber": "49719",
@@ -1057,10 +1057,18 @@
         "notes": "everything is ok!!"
     },
     {
-        "serialActuator": "181130410",
+        "serialActuator": "1811303410",
         "serialValve": "18AUG-001",
         "sizeValve": "4 Inch",
         "orderNumber": "49719",
+        "rmaNumber": "N/A",
+        "notes": "everything is ok!!"
+    },
+    {
+        "serialActuator": "1811303396",
+        "serialValve": "18AUG-012",
+        "sizeValve": "4 Inch",
+        "orderNumber": "52061",
         "rmaNumber": "N/A",
         "notes": "everything is ok!!"
     },
@@ -1082,6 +1090,14 @@
     },
     {
         "serialActuator": "1811303334",
+        "serialValve": "N/A",
+        "sizeValve": "N/A",
+        "orderNumber": "N/A",
+        "rmaNumber": "N/A",
+        "notes": "Actuator does not work"
+    },
+    {
+        "serialActuator": "1711301550",
         "serialValve": "N/A",
         "sizeValve": "N/A",
         "orderNumber": "N/A",
@@ -1126,7 +1142,7 @@
         "sizeValve": "N/A",
         "orderNumber": "51730",
         "rmaNumber": "2404",
-        "notes": " WET RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1811303107",
@@ -1134,7 +1150,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2362",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1811302639",
@@ -1142,7 +1158,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2343",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301560",
@@ -1150,7 +1166,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2362",
-        "notes": " WET RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301744",
@@ -1158,7 +1174,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2362",
-        "notes": " WET RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301780",
@@ -1166,7 +1182,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2362",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301722",
@@ -1174,7 +1190,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2291",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301572",
@@ -1182,7 +1198,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2291",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301782",
@@ -1190,7 +1206,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301650",
@@ -1198,7 +1214,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301889",
@@ -1206,7 +1222,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2335",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1811302991",
@@ -1214,7 +1230,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2327",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301597",
@@ -1222,7 +1238,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2335",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301824",
@@ -1230,7 +1246,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2327",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1611301080",
@@ -1238,7 +1254,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2338",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1811302659",
@@ -1246,7 +1262,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2338",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301832",
@@ -1254,7 +1270,8 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2312",
-        "notes": "Used to measure torque"
+        "notes1": "Torque",
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301700",
@@ -1262,7 +1279,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2312",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301612",
@@ -1270,7 +1287,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2300",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301647",
@@ -1278,7 +1295,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2291",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1711301625",
@@ -1286,7 +1303,7 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2300",
-        "notes": "RMA"
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1511300721",
@@ -1294,7 +1311,8 @@
         "sizeValve": "N/A",
         "orderNumber": "N/A",
         "rmaNumber": "2137",
-        "notes": "RMA Example"
+        "notes1": "RMA Example",
+        "notes": "Actuator does not work"
     },
     {
         "serialActuator": "1811303427",
@@ -1357,6 +1375,22 @@
         "serialValve": "N/A",
         "sizeValve": "N/A",
         "orderNumber": "52392",
+        "rmaNumber": "N/A",
+        "notes": "RMA"
+    },
+    {
+        "serialActuator": "1811303464",
+        "serialValve": "N/A",
+        "sizeValve": "N/A",
+        "orderNumber": "52948",
+        "rmaNumber": "N/A",
+        "notes": "RMA"
+    },
+    {
+        "serialActuator": "1811303467",
+        "serialValve": "N/A",
+        "sizeValve": "N/A",
+        "orderNumber": "52948",
         "rmaNumber": "N/A",
         "notes": "RMA"
     }
