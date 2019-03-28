@@ -144,7 +144,7 @@ const mockup = ()=> {
 
 //Seleccionando y almacenando en variables los dos text input del buscador
 formContainer.innerHTML = formBrowser;
-const searchInput = document.getElementById('search-input');
+let searchInput = document.getElementById('search-input');
 const submit = document.getElementById('search-submit');
 
 submit.addEventListener('click', (e) => {
@@ -175,19 +175,30 @@ function filter(actuator) {
         let serialActuator = card1[i].querySelector('.card-name').textContent;
         let serialValve = card1[i].querySelector('.serial-valve').textContent;
         let orderNumber = card1[i].querySelector('.order-number').textContent;
-       
-        if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 || valve.indexOf(actuator) === 0) {
-            console.log('filter function')
-            // swal({
-            //     title: `Invalid Input`,
-            //     icon: `error`
-            // })
-           
-            card1[i].style.display = "";
-        } else  {
+        let footer = document.querySelector('#footer')
 
+        if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 ) {
+            console.log('filter function ')
+            
+            footer.style.display = "block"
+            card1[i].style.display = "";
+         } //else  if (searchInput.value === "" || !searchInput.value === serialActuator || !searchInput.value === serialValve || !searchInput.value === orderNumber) {
+        //     // swal({
+        //     //     title: `Please enter a valid input`,
+        //     //     icon: `error`
+        //     // })
+        //     // footer.style.display = "none"
+        //     // card1[i].style.display = "none";
+        // } 
+        else {
+            console.log('else statement')
+            swal({
+                title: `Please enter a valid input`,
+                icon: `error`
+            })
            
-            card1[i].style.display = "none";
+            footer.style.display = "block"
+            card1[i].style.display = "";
         }
 
     }
