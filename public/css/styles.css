@@ -15,7 +15,8 @@ html, body {
 
 body {
     text-align: center;
-    /* background: rgba(235, 235, 235, 0.9); */
+    font-family: 'Allerta', sans-serif; 
+
     background: rgba(155, 139, 139, 0.486);
 }
 
@@ -309,112 +310,55 @@ background: rgba(245, 245, 245, 0.9);
    Footer
 ======================================== */
 
-body {
+/* body {
   font-family: 'Allerta', sans-serif; 
-}
+} */
 
 .footer {
   height: 100%;
-  margin: 0px;
-}
-.footer .contenedor-footer {
+  width: 100%;
+  padding-top: 30px;  
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-}
-.footer .contenedor-footer .formulario-contactenos {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1,
-.footer .contenedor-footer .formulario-contactenos .form-col2 {
-  margin-right: 30px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-/* label; */
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1 input,
-.footer .contenedor-footer .formulario-contactenos .form-col2 input {
-  margin-bottom: 10px;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1 label {
-  color: #fff;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1 .tipos-comentarios {
-  display: flex;
-  flex-direction: column;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col1 .tipos-comentarios label {
-  font-size: 13px;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col2 {
-  align-items: flex-start;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col2 label {
-  color: #fff;
-  margin-bottom: 1em;
-}
-.footer .contenedor-footer .formulario-contactenos .form-col2 textarea {
-  margin-bottom: 10px;
-  height: 110px;
-}
-.footer .contenedor-footer .redesSociales .realizadopor {
-  padding-top: 30px;
-}
-.footer .contenedor-footer .redesSociales .realizadoclase {
-  padding-bottom: 30px;
-}
-.footer .contenedor-footer .redesSociales p {
-  color: rgb(58, 54, 54);
-  text-align: center;
-  margin: 10px;
-}
-.footer .contenedor-footer .redesSociales .logos-redes {
-  text-align: center;
-}
-.footer .contenedor-footer .redesSociales .logos-redes a {
-  text-decoration: none;
-}
-.footer .contenedor-footer .redesSociales .logos-redes .logo-facebook:before {
-  font-size: 30px;
-  font-family: "Flaticon";
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  align-items: right;
+  justify-content: right;
 }
 
-.footer .contenedor-footer .redesSociales .logos-redes .logo-github:before {
-  font-size: 30px;
-  font-family: "Flaticon";
+.footer .contenedor-footer {
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100%;
 }
+
+.footer .contenedor-footer p {
+  color: rgb(58, 54, 54);
+  /* text-align: left; */
+  padding-right: 40px;
+  padding-left: 40px;
+  /* margin: 10px; */
+  justify-content: center;
+}
+
+.contenedor-footer .logos-redes a {
+  text-decoration: none;
+  max-width: 1180px;
+}
+
+
 i.fab{
     color: rgba(50, 50, 50, 0.7);
-
+    width: 30px;
+    height: 30px;
+    display:inline-block;
+    /* transition: 0.5s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:; */
+    font-size: x-large;
 }
 
-@media screen and (min-width: 768px) {
-   .footer .contenedor-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
- 
-  
-  .footer .contenedor-footer .redesSociales {
-
-    margin-top: 40px;
-    margin-bottom: 45px;
-    width:100%;
-    position:absolute;  
-    /* color: #7acc2d; */
-    font-size: 30px;
-    /* text-align: right; */
-
-  }
-  
 
 /* ===================================== 
    Tablet

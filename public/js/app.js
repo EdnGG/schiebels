@@ -191,14 +191,14 @@ function filter(actuator) {
         //     // card1[i].style.display = "none";
         // } 
         else {
-            console.log('else statement')
-            swal({
-                title: `Please enter a valid input`,
-                icon: `error`
-            })
+            // console.log('else statement')
+            // swal({
+            //     title: `Please enter a valid input`,
+            //     icon: `error`
+            // })
            
             footer.style.display = "block"
-            card1[i].style.display = "";
+            card1[i].style.display = "none";
         }
 
     }
