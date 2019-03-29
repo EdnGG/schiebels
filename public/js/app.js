@@ -154,11 +154,11 @@ submit.addEventListener('click', (e) => {
     // Ejecutando la  funcion filter y pasando por parametro la variable 'empleado' 
     filter(actuator)
     if (searchInput.value === "") {
-        console.log('event listener')
-        swal({
-            title: `Please enter a valid input`,
-            icon: `error`
-        })
+        // console.log('event listener')
+        // swal({
+        //     title: `Please enter a valid input`,
+        //     icon: `error`
+        // })
         $(".card").slice(10).hide();
         //console.log(card)
         //card.slice(10)
@@ -167,6 +167,8 @@ submit.addEventListener('click', (e) => {
 })
 
 //Agregando el eventListener al boton 'submit'
+
+
 function filter(actuator) {
     
     let card1 = document.querySelectorAll('.card')
@@ -175,31 +177,39 @@ function filter(actuator) {
         let serialActuator = card1[i].querySelector('.card-name').textContent;
         let serialValve = card1[i].querySelector('.serial-valve').textContent;
         let orderNumber = card1[i].querySelector('.order-number').textContent;
-        let footer = document.querySelector('#footer')
+        console.log(orderNumber)
+        console.log(orderNumber.length)
+    if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0){
+        card1[i].style.display = "";
+        
+    } else if (orderNumber.indexOf(actuator) === 0) {
+        // console.log(orderNumber[i])
+        // let result = orderNumber.map( order => { 
+        //     if(order === actuator){
+        //         return console.log(result)
+        //     } 
 
-        if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 ) {
-            console.log('filter function ')
-            
-            footer.style.display = "block"
-            card1[i].style.display = "";
-         } //else  if (searchInput.value === "" || !searchInput.value === serialActuator || !searchInput.value === serialValve || !searchInput.value === orderNumber) {
-        //     // swal({
-        //     //     title: `Please enter a valid input`,
-        //     //     icon: `error`
-        //     // })
-        //     // footer.style.display = "none"
-        //     // card1[i].style.display = "none";
-        // } 
-        else {
-            // console.log('else statement')
-            // swal({
-            //     title: `Please enter a valid input`,
-            //     icon: `error`
-            // })
-           
-            footer.style.display = "block"
+        // })
+        swal({
+            title: `Actuators under this ${actuator} order number`,
+            icon: `success`
+        })
+        card1[i].style.display = "";
+
+    } else {
             card1[i].style.display = "none";
-        }
+
+    }
+        
+        
+        // if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) === 0 ) {
+            
+        //     card1[i].style.display = "";
+         
+        // } else {
+            
+        //     card1[i].style.display = "none";
+        // }
 
     }
 }
