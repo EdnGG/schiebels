@@ -1,3 +1,6 @@
+console.log("hello from inspection.js");
+
+
 const inspectionButton = document.getElementById('inspection');
 const ancorPagination = document.getElementById('pagination');
 const actuatorsButton = document.getElementById('actuators');

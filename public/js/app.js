@@ -1,3 +1,5 @@
+console.log("hello from app.js");
+
 //Creando un array donde se guardara la respuesta de Fetch, haciendo estas variables globales
 let schiebels = []
 let valve = []
