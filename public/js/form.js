@@ -8,9 +8,6 @@ const formBrowser = `
         <input type="submit" value="&#x1F50D;" id="search-submit" class="search-submit">
     </form>`
 
-// // Creando el Boton de detalles
-// let button = '<br><input type="button" value="details" id="details" class="search-input button" />';
-// counterContainer.innerHTML = button
 
 //Seleccionando y almacenando en variables los dos text input del buscador
 formContainer.innerHTML = formBrowser;

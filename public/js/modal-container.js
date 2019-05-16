@@ -21,6 +21,8 @@ function printModal(i) {
                             <p class="modal-text">${schiebels[i].orderNumber}</p>
                             <p class="modal-text">RMA Number:</p>
                             <p class="modal-text">${schiebels[i].rmaNumber}</p>
+                            <p class="modal-text">Info:</p>
+                            <p class="modal-text">${schiebels[i].info}</p>
                             <p class="modal-text">Notes:</p>
                             <p class="modal-text">${schiebels[i].notes}</p>
                     </div>

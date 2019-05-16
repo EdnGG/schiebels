@@ -13,7 +13,7 @@ function filter(actuator) {
         if (serialActuator.indexOf(actuator) === 0 || serialValve.indexOf(actuator) === 0) {
             card1[i].style.display = "";
 
-        } else if (orderNumber.indexOf(actuator) === 0) {
+        } else if (orderNumber.indexOf(actuator) === 0 || orderNumber.indexOf(actuator) == 'odessa') {
             // console.log(orderNumber[i])
             // let result = orderNumber.map( order => { 
             //     if(order === actuator){
