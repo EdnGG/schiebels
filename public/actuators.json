@@ -226,6 +226,51 @@
     "notes": "everything is ok!!"
   },
   {
+    "serialActuator": "1811303578",
+    "serialValve": "17SEP-031",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303555",
+    "serialValve": "17MAR-048",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303556",
+    "serialValve": "17SEP-013",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303576",
+    "serialValve": "17SEP-025",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303577",
+    "serialValve": "17SEP-007",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
     "serialActuator": "1811303426",
     "serialValve": "18DEC-018",
     "sizeValve": "3 Inch",
@@ -1517,7 +1562,7 @@
     "serialActuator": "1811303529",
     "serialValve": "19JAN-062",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1526,7 +1571,7 @@
     "serialActuator": "1811303545",
     "serialValve": "19JAN-018",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1535,7 +1580,7 @@
     "serialActuator": "1811303544",
     "serialValve": "19JAN-043",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1544,7 +1589,7 @@
     "serialActuator": "1811303546",
     "serialValve": "19JAN-056",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1553,7 +1598,7 @@
     "serialActuator": "1811303550",
     "serialValve": "19JAN-038",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1562,7 +1607,7 @@
     "serialActuator": "1811303549",
     "serialValve": "19JAN-058",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1571,7 +1616,7 @@
     "serialActuator": "1811303547",
     "serialValve": "19JAN-036",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1580,7 +1625,7 @@
     "serialActuator": "1811303543",
     "serialValve": "19JAN-060",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1589,7 +1634,7 @@
     "serialActuator": "1811303553",
     "serialValve": "19JAN-047",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1598,7 +1643,7 @@
     "serialActuator": "1811303536",
     "serialValve": "19JAN-069",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1607,7 +1652,7 @@
     "serialActuator": "1811303535",
     "serialValve": "19JAN-042",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1616,9 +1661,198 @@
     "serialActuator": "1811303528",
     "serialValve": "19JAN-057",
     "sizeValve": "3 Inch",
-    "orderNumber": "",
+    "orderNumber": "WAITING FOR ODER NUMBER",
     "rmaNumber": "N/A",
     "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303541",
+    "serialValve": "19JAN-053",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303539",
+    "serialValve": "19JAN-014",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303552",
+    "serialValve": "19JAN-013",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303548",
+    "serialValve": "19JAN-049",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303554",
+    "serialValve": "19JAN-041",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303540",
+    "serialValve": "19JAN-051",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303551",
+    "serialValve": "19JAN-055",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303542",
+    "serialValve": "19JAN-059",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303567",
+    "serialValve": "19JAN-040",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303565",
+    "serialValve": "19JAN-039",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303563",
+    "serialValve": "19JAN-046",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303568",
+    "serialValve": "19JAN-052",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303570",
+    "serialValve": "19JAN-037",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303566",
+    "serialValve": "19JAN-001",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303569",
+    "serialValve": "19JAN-006",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303564",
+    "serialValve": "19JAN-002",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303574",
+    "serialValve": "19JAN-008",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303581",
+    "serialValve": "19JAN-004",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303580",
+    "serialValve": "19JAN-003",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303579",
+    "serialValve": "19JAN-012",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303582",
+    "serialValve": "19JAN-011",
+    "sizeValve": "3 Inch",
+    "orderNumber": "WAITING FOR ODER NUMBER",
+    "rmaNumber": "N/A",
+    "info": "RECEIVED 5/8/19",
     "notes": "everything is ok!!"
   },
   {
@@ -1969,8 +2203,8 @@
     "sizeValve": "N/A",
     "orderNumber": "N/A",
     "rmaNumber": "2291",
-    "info": "",
-    "notes": "Actuator does not work"
+    "info": "Change board 1711301647, same errors",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1711301782",
@@ -2102,10 +2336,10 @@
     "serialActuator": "1711301718",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1811302655",
@@ -2147,10 +2381,10 @@
     "serialActuator": "1711301749",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1811303098",
@@ -2183,10 +2417,10 @@
     "serialActuator": "1711301603",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1711301741",
@@ -2228,10 +2462,10 @@
     "serialActuator": "1711301732",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Oil leaking into the brake",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1711301733",
@@ -2273,10 +2507,10 @@
     "serialActuator": "1711301717",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1811303144",
@@ -2291,19 +2525,19 @@
     "serialActuator": "1711301768",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1711301699",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
-    "info": "",
-    "notes": "Actuator does not work"
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
+    "info": "Currently strokes correctly",
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1811303976",
@@ -2318,10 +2552,10 @@
     "serialActuator": "1711301661",
     "serialValve": "N/A",
     "sizeValve": "N/A",
-    "orderNumber": "ODESSA",
-    "rmaNumber": "",
+    "orderNumber": "N/A",
+    "rmaNumber": "ODESSA",
     "info": "currently strokes correctly",
-    "notes": "Actuator does not work"
+    "notes": "RETURNED TO AUSTRIA"
   },
   {
     "serialActuator": "1811303310",
