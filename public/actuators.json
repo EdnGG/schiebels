@@ -397,6 +397,204 @@
     "notes": "everything is ok!!"
   },
   {
+    "serialActuator": "1811303592",
+    "serialValve": "17AUG-004",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303593",
+    "serialValve": "17AUG-013",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303590",
+    "serialValve": "17AUG-010",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303588",
+    "serialValve": "17AUG-003",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303624",
+    "serialValve": "17OET-034",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303622",
+    "serialValve": "17OET-028",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303620",
+    "serialValve": "17OET-018",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303621",
+    "serialValve": "17OET-014",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303630",
+    "serialValve": "17OET-022",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303631",
+    "serialValve": "17OET-024",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303629",
+    "serialValve": "17OET-003",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303632",
+    "serialValve": "17OET-006",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303628",
+    "serialValve": "17OET-008",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303633",
+    "serialValve": "17OET-032",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303634",
+    "serialValve": "17OET-048",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303627",
+    "serialValve": "17OET-010",
+    "sizeValve": "2 Inch",
+    "orderNumber": "54198",
+    "rmaNumber": "N/A",
+    "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304848",
+    "serialValve": "17OET-049",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55589",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303648",
+    "serialValve": "17OET-004",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55589",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303646",
+    "serialValve": "17OET-002",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55589",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304883",
+    "serialValve": "17OET-030",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55589",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304882",
+    "serialValve": "17OET-023",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55589",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303649",
+    "serialValve": "17OET-031",
+    "sizeValve": "2 Inch",
+    "orderNumber": "55558",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
     "serialActuator": "1811303426",
     "serialValve": "18DEC-018",
     "sizeValve": "3 Inch",
@@ -1685,64 +1883,10 @@
     "notes": "everything is ok!!"
   },
   {
-    "serialActuator": "1811303529",
-    "serialValve": "19JAN-062",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
-    "serialActuator": "1811303545",
-    "serialValve": "19JAN-018",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
-    "serialActuator": "1811303544",
-    "serialValve": "19JAN-043",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
-    "serialActuator": "1811303546",
-    "serialValve": "19JAN-056",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
-    "serialActuator": "1811303550",
-    "serialValve": "19JAN-038",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
-    "serialActuator": "1811303549",
-    "serialValve": "19JAN-058",
-    "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
-    "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
-  },
-  {
     "serialActuator": "1811303547",
     "serialValve": "19JAN-036",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1751,7 +1895,7 @@
     "serialActuator": "1811303543",
     "serialValve": "19JAN-060",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1760,7 +1904,7 @@
     "serialActuator": "1811303553",
     "serialValve": "19JAN-047",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1769,7 +1913,7 @@
     "serialActuator": "1811303536",
     "serialValve": "19JAN-069",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1778,7 +1922,7 @@
     "serialActuator": "1811303535",
     "serialValve": "19JAN-042",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1787,7 +1931,7 @@
     "serialActuator": "1811303528",
     "serialValve": "19JAN-057",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1796,7 +1940,7 @@
     "serialActuator": "1811303541",
     "serialValve": "19JAN-053",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1805,7 +1949,7 @@
     "serialActuator": "1811303539",
     "serialValve": "19JAN-014",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1814,7 +1958,7 @@
     "serialActuator": "1811303552",
     "serialValve": "19JAN-013",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1823,7 +1967,7 @@
     "serialActuator": "1811303548",
     "serialValve": "19JAN-049",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1832,7 +1976,7 @@
     "serialActuator": "1811303554",
     "serialValve": "19JAN-041",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1841,7 +1985,7 @@
     "serialActuator": "1811303540",
     "serialValve": "19JAN-051",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1850,7 +1994,7 @@
     "serialActuator": "1811303551",
     "serialValve": "19JAN-055",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1859,7 +2003,7 @@
     "serialActuator": "1811303542",
     "serialValve": "19JAN-059",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "",
     "notes": "everything is ok!!"
@@ -1868,7 +2012,7 @@
     "serialActuator": "1811303567",
     "serialValve": "19JAN-040",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "RECEIVED 5/8/19",
     "notes": "everything is ok!!"
@@ -1877,7 +2021,7 @@
     "serialActuator": "1811303565",
     "serialValve": "19JAN-039",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "RECEIVED 5/8/19",
     "notes": "everything is ok!!"
@@ -1886,7 +2030,7 @@
     "serialActuator": "1811303563",
     "serialValve": "19JAN-046",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "RECEIVED 5/8/19",
     "notes": "everything is ok!!"
@@ -1895,7 +2039,7 @@
     "serialActuator": "1811303568",
     "serialValve": "19JAN-052",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "RECEIVED 5/8/19",
     "notes": "everything is ok!!"
@@ -1904,81 +2048,81 @@
     "serialActuator": "1811303570",
     "serialValve": "19JAN-037",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303566",
     "serialValve": "19JAN-001",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303569",
     "serialValve": "19JAN-006",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303564",
     "serialValve": "19JAN-002",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303574",
     "serialValve": "19JAN-008",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303581",
     "serialValve": "19JAN-004",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303580",
     "serialValve": "19JAN-003",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303579",
     "serialValve": "19JAN-012",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
     "serialActuator": "1811303582",
     "serialValve": "19JAN-011",
     "sizeValve": "3 Inch",
-    "orderNumber": "WAITING FOR ODER NUMBER",
+    "orderNumber": "52652",
     "rmaNumber": "N/A",
-    "info": "RECEIVED 5/8/19",
+    "info": "",
     "notes": "everything is ok!!"
   },
   {
@@ -2096,6 +2240,366 @@
     "orderNumber": "52651",
     "rmaNumber": "N/A",
     "info": "SCS TECHNOLOGIES",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303589",
+    "serialValve": "19JAN-005",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303591",
+    "serialValve": "19JAN-009",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303594",
+    "serialValve": "19JAN-010",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303587",
+    "serialValve": "19JAN-007",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303595",
+    "serialValve": "19JAN-032",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303585",
+    "serialValve": "19JAN-035",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303608",
+    "serialValve": "19JAN-019",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303618",
+    "serialValve": "19JAN-034",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303610",
+    "serialValve": "19JAN-044",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303606",
+    "serialValve": "19JAN-021",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303612",
+    "serialValve": "19JAN-028",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303603",
+    "serialValve": "19JAN-030",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303613",
+    "serialValve": "19JAN-027",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303611",
+    "serialValve": "19JAN-026",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303615",
+    "serialValve": "19JAN-033",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303604",
+    "serialValve": "19FEB-034",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303619",
+    "serialValve": "19FEB-039",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303623",
+    "serialValve": "19FEB-029",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303625",
+    "serialValve": "19FEB-049",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303626",
+    "serialValve": "19FEB-045",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303605",
+    "serialValve": "19FEB-050",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303641",
+    "serialValve": "19FEB-032",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1811303639",
+    "serialValve": "19FEB-046",
+    "sizeValve": "3 Inch",
+    "orderNumber": "52652",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304879",
+    "serialValve": "19FEB-010",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304881",
+    "serialValve": "19FEB-007",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304877",
+    "serialValve": "19FEB-003",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304885",
+    "serialValve": "19FEB-008",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304886",
+    "serialValve": "19FEB-009",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304851",
+    "serialValve": "19FEB-016",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304844",
+    "serialValve": "19FEB-017",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304850",
+    "serialValve": "19FEB-048",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304845",
+    "serialValve": "19FEB-019",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304847",
+    "serialValve": "19FEB-015",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304849",
+    "serialValve": "19FEB-028",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304846",
+    "serialValve": "19FEB-047",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304880",
+    "serialValve": "19FEB-031",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304876",
+    "serialValve": "19FEB-018",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304878",
+    "serialValve": "19FEB-060",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55804",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304891",
+    "serialValve": "19FEB-002",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55832",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
+    "notes": "everything is ok!!"
+  },
+  {
+    "serialActuator": "1911304889",
+    "serialValve": "19FEB-014",
+    "sizeValve": "3 Inch",
+    "orderNumber": "55832",
+    "rmaNumber": "N/A",
+    "info": "Limit Switch",
     "notes": "everything is ok!!"
   },
   {
@@ -2310,6 +2814,15 @@
     "serialValve": "18MAY-002",
     "sizeValve": "4 Inch",
     "orderNumber": "54501",
+    "rmaNumber": "N/A",
+    "info": "Valve type L-Port",
+    "notes": "Limit switch, clockwise"
+  },
+  {
+    "serialActuator": "1911304887",
+    "serialValve": "17DEC-002",
+    "sizeValve": "4 Inch",
+    "orderNumber": "55769",
     "rmaNumber": "N/A",
     "info": "Valve type L-Port",
     "notes": "Limit switch, clockwise"
@@ -3062,6 +3575,15 @@
     "notes": "ASSEMBLE"
   },
   {
+    "serialActuator": "1911304884",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55724",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
     "serialActuator": "1811303559",
     "serialValve": "N/A",
     "sizeValve": "N/A",
@@ -3122,6 +3644,159 @@
     "orderNumber": "54138",
     "rmaNumber": "2486",
     "info": "REUSED IT FROM ODESSA",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303642",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303638",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303635",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303636",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303637",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303640",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "",
+    "info": "7/19/19",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303643",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "54925",
+    "rmaNumber": "",
+    "info": "",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303650",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "54925",
+    "rmaNumber": "",
+    "info": "",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303647",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "54925",
+    "rmaNumber": "",
+    "info": "",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303644",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "54925",
+    "rmaNumber": "",
+    "info": "",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303645",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "54925",
+    "rmaNumber": "",
+    "info": "",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811304218",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Brake not working",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1711301714",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Brake not working",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1811303230",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Actuator does not turn on",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1711301721",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Shaft is loose on the inside",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1711301563",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Electrical harness is damaged",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1711301541",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2517",
+    "info": "Actuator won't move",
     "notes": "RMA"
   }
 
