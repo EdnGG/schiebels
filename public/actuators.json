@@ -2828,6 +2828,15 @@
     "notes": "Limit switch, clockwise"
   },
   {
+    "serialActuator": "1911304888",
+    "serialValve": "17OCT-007",
+    "sizeValve": "4 Inch",
+    "orderNumber": "55849",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "SET UP TO T1"
+  },
+  {
     "serialActuator": "1811303323",
     "serialValve": "N/A",
     "sizeValve": "N/A",
@@ -3584,6 +3593,51 @@
     "notes": "ASSEMBLE"
   },
   {
+    "serialActuator": "1911304861",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55863",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
+    "serialActuator": "1911304862",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55863",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
+    "serialActuator": "1911304863",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55863",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
+    "serialActuator": "1911304864",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55863",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
+    "serialActuator": "1911304860",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55863",
+    "rmaNumber": "N/A",
+    "info": "",
+    "notes": "ASSEMBLE"
+  },
+  {
     "serialActuator": "1811303559",
     "serialValve": "N/A",
     "sizeValve": "N/A",
@@ -3797,6 +3851,51 @@
     "orderNumber": "",
     "rmaNumber": "2517",
     "info": "Actuator won't move",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1911304828",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55864",
+    "rmaNumber": "55864",
+    "info": "RMA",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1911304890",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55864",
+    "rmaNumber": "55864",
+    "info": "RMA",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1911304867",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55864",
+    "rmaNumber": "55864",
+    "info": "RMA",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1911304866",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55864",
+    "rmaNumber": "55864",
+    "info": "RMA",
+    "notes": "RMA"
+  },
+  {
+    "serialActuator": "1911304865",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "55864",
+    "rmaNumber": "55864",
+    "info": "RMA",
     "notes": "RMA"
   }
 
