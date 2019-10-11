@@ -24,7 +24,7 @@ function printModal(i) {
                             <p class="modal-text">Info:</p>
                             <p class="modal-text">${schiebels[i].info}</p>
                             <p class="modal-text">Notes:</p>
-                            <p class="modal-text">${schiebels[i].notes}</p>
+                            <textarea class="modal-text">${schiebels[i].notes}</textarea>
                     </div>
                 </div>
 

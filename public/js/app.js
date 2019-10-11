@@ -12,7 +12,7 @@ let defaultPagination = [0, 10]
 const gallery = document.querySelector('.gallery')
 
 
-//Testing Fetch for personal project
+//Testing Fetch for Schiebels project
 fetch('./actuators.json')
     .then(res => res.json())
     .then(data => {

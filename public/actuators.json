@@ -1285,8 +1285,8 @@
     "sizeValve": "3 Inch",
     "orderNumber": "51279",
     "rmaNumber": "N/A",
-    "info": "",
-    "notes": "everything is ok!!"
+    "info": "It gets back from Odessa",
+    "notes": "Mechanical damage, (clip)"
   },
   {
     "serialActuator": "1811303449",
@@ -3897,6 +3897,95 @@
     "rmaNumber": "55864",
     "info": "RMA",
     "notes": "RMA"
+  },
+  {
+    "serialActuator": "1711301762",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2566",
+    "info": "RMA",
+    "notes": "Mechanical Damage"
+  },
+  {
+    "serialActuator": "1811303115",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2566",
+    "info": "RMA",
+    "notes": "Shaft got hit, Parameter from 4.1 to 4.6 sets to 20%, 4.8 got 36%,"
+  },{
+    "serialActuator": "1811303210",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Actuator Don't move"
+  },
+  {
+    "serialActuator": "1711301696",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Parameters from 4.1 to 4.6 sets 20%, 4.8 sets 25%, 5.1, getting slower at 60% from open"
+  },
+  {
+    "serialActuator": "1711301624",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Tags says it dont move but it does"
+  },
+  {
+    "serialActuator": "1711301564",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Mechanical damage, I loose the brake bolts to unstuck gearbox"
+  },
+  {
+    "serialActuator": "1711301811",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "I loose the brake bolts to unstuck gearbox"
+  },
+  {
+    "serialActuator": "1811303221",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Parameter 4.8 got 25%, Open slow, Exposed to water, Rust"
+  },
+  {
+    "serialActuator": "1811303238",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Mechanical damage, Found water and rust on brake , Exposed to water, Rust on wire seccion"
+  },{
+    "serialActuator": "1811302634",
+    "serialValve": "N/A",
+    "sizeValve": "N/A",
+    "orderNumber": "",
+    "rmaNumber": "2565",
+    "info": "RMA",
+    "notes": "Rust on electronic seccion"
   }
-
+  
+  
 ]
